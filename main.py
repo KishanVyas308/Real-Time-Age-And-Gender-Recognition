@@ -1,8 +1,7 @@
 import cv2
 import os
 os.chdir('models')
-
-
+    
 def detectFace(net,frame,confidence_threshold=0.7):
     frameOpencvDNN=frame.copy()
     print(frameOpencvDNN.shape)
